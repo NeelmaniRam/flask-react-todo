@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.add-todo-form input {
+  padding: 5px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 5px;
+}
